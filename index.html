@@ -1,64 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hannah Kingham Home Page</title>
-    <link rel="stylesheet" href="stylesheets/index_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- PAGE TITLE (shows in browser tab) -->
+    <title><!-- Write your name here --></title>
+
+    <!-- FONT (optional if already in CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Optional clean font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- LINK TO YOUR CSS FILE -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="pages/projects.html">Projects</a></li>
-                <li><a href="pages/cv.html">CV</a></li>
-                <li><a href="pages/about.html">About Me</a></li>
-            </ul>
-            <h1>BIG HEADER</h1>
-        </nav>
-    </header>
 
+<!-- ================= HEADER ================= -->
+<header>
 
-    <section id="homeText">
+    <!-- YOUR NAME -->
+    <h1><!-- Write your name here --></h1>
+
+    <!-- SHORT TAGLINE (PhD / field / university) -->
+    <p><!-- e.g. PhD Student in ... --></p>
+
+    <!-- ================= NAVIGATION MENU ================= -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <!-- LINK TO OTHER PAGES -->
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- ================= MAIN PAGE CONTENT ================= -->
+<main>
+
+    <!-- ================= INTRO SECTION ================= -->
+    <section class="intro">
+
+        <!-- MAIN INTRO HEADING -->
+        <h2><!-- Short greeting like "Hello" or "Welcome" --></h2>
+
+        <!-- INTRO PARAGRAPH -->
         <p>
-            PARAGRAPH
-        </p> 
-
-        <p>
-            LINK <a href="https://www.linkedin.com">WORDS OF THE LINK</a>
+            <!-- Write 2–4 sentences:
+                 who you are,
+                 what you research,
+                 where you are based -->
         </p>
-    </section>
 
+        <!-- QUICK LINKS (CV / EMAIL / GITHUB / SCHOLAR) -->
+        <div class="links">
 
-    <section class="banner" id="projectsBanner">
-        <a href="pages/projects.html">
-            <h2>RESEARCH PROJECTS</h2>
-            <p>Click here to view my recent research projects</p>
-        </a>
-    </section>
+            <a href="#"><!-- CV link --></a>
+            <a href="mailto:"><!-- email --></a>
+            <a href="#"><!-- GitHub --></a>
+            <a href="#"><!-- Google Scholar / ORCID --></a>
 
-    <section class="banner" id="cvBanner">
-        <a href="pages/cv.html">
-            <h2>CV</h2>
-            <p>Click here to view and download my CV</p>
-        </a>
-    </section>
-
-    <section class="banner" id="aboutBanner">
-        <a href="pages/about.html">
-            <h2>ABOUT ME</h2>
-            <p></p>
-        </a>
-    </section>
-
-    <footer>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/hannah-kingham-2b24552b6/" class="fa fa-linkedin"></a>
-            <a href="https://github.com" class="fa fa-github"></a>
         </div>
-    </footer>
+
+    </section>
+
+    <!-- ================= CURRENT RESEARCH ================= -->
+    <section>
+
+        <h3><!-- Section title e.g. "Current Research" --></h3>
+
+        <div class="project-grid">
+
+            <!-- PROJECT CARD 1 -->
+            <div class="project-card">
+                <h4><!-- Project title --></h4>
+                <p>
+                    <!-- Short description of project -->
+                </p>
+            </div>
+
+            <!-- PROJECT CARD 2 -->
+            <div class="project-card">
+                <h4><!-- Project title --></h4>
+                <p>
+                    <!-- Short description -->
+                </p>
+            </div>
+
+            <!-- ADD MORE PROJECTS IF NEEDED -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWS / UPDATES ================= -->
+    <section>
+
+        <h3><!-- Section title e.g. "News" --></h3>
+
+        <ul>
+            <!-- Each line is one update -->
+            <li><!-- Update 1 --></li>
+            <li><!-- Update 2 --></li>
+            <li><!-- Update 3 --></li>
+        </ul>
+
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <!-- COPYRIGHT TEXT -->
+    <!-- e.g. © 2026 Your Name -->
+
+</footer>
+
 </body>
 </html>
+
