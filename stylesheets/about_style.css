@@ -196,5 +196,55 @@ footer {
     color: white;
 }
 
+/* ================= TIMELINE ================= */
+
+.timeline {
+    position: relative;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+/* vertical line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 120px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #ddd;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+/* left side (dates) */
+.timeline-date {
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* right side (content) */
+.timeline-content {
+    padding-left: 30px;
+    position: relative;
+}
+
+/* little dot on the line */
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+}
 
 
