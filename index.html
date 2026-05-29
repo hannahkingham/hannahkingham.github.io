@@ -3,38 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <title><!-- Your Name --></title>
 
-    <!-- PAGE TITLE (shows in browser tab) -->
-    <title><!-- Write your name here --></title>
-
-    <!-- FONT (optional if already in CSS) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Optional clean font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- LINK TO YOUR CSS FILE -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- ================= HEADER (kept in your original style) ================= -->
 <header>
 
-    <!-- YOUR NAME -->
-    <h1><!-- Write your name here --></h1>
+    <h1><!-- Your Name --></h1>
 
-    <!-- SHORT TAGLINE (PhD / field / university) -->
-    <p><!-- e.g. PhD Student in ... --></p>
+    <p><!-- PhD Student in ... --></p>
 
-    <!-- ================= NAVIGATION MENU ================= -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-
-            <!-- LINK TO OTHER PAGES -->
             <li><a href="research.html">Research</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="cv.html">CV</a></li>
@@ -44,85 +29,94 @@
 
 </header>
 
-<!-- ================= MAIN PAGE CONTENT ================= -->
+<!-- ================= MAIN CONTENT ================= -->
 <main>
 
-    <!-- ================= INTRO SECTION ================= -->
-    <section class="intro">
+    <!-- ================= INTRO ================= -->
+    <section id="homeText">
 
-        <!-- MAIN INTRO HEADING -->
-        <h2><!-- Short greeting like "Hello" or "Welcome" --></h2>
-
-        <!-- INTRO PARAGRAPH -->
         <p>
-            <!-- Write 2–4 sentences:
-                 who you are,
-                 what you research,
-                 where you are based -->
+            <!-- Short intro: who you are + what you do -->
         </p>
 
-        <!-- QUICK LINKS (CV / EMAIL / GITHUB / SCHOLAR) -->
-        <div class="links">
+        <p>
+            <!-- Optional second paragraph: research focus -->
+        </p>
 
-            <a href="#"><!-- CV link --></a>
-            <a href="mailto:"><!-- email --></a>
-            <a href="#"><!-- GitHub --></a>
-            <a href="#"><!-- Google Scholar / ORCID --></a>
-
-        </div>
-
-    </section>
-
-    <!-- ================= CURRENT RESEARCH ================= -->
-    <section>
-
-        <h3><!-- Section title e.g. "Current Research" --></h3>
-
-        <div class="project-grid">
-
-            <!-- PROJECT CARD 1 -->
-            <div class="project-card">
-                <h4><!-- Project title --></h4>
-                <p>
-                    <!-- Short description of project -->
-                </p>
-            </div>
-
-            <!-- PROJECT CARD 2 -->
-            <div class="project-card">
-                <h4><!-- Project title --></h4>
-                <p>
-                    <!-- Short description -->
-                </p>
-            </div>
-
-            <!-- ADD MORE PROJECTS IF NEEDED -->
-
-        </div>
+        <!-- OPTIONAL LINKS -->
+        <p>
+            <a href="#"><!-- CV --></a> |
+            <a href="mailto:"><!-- Email --></a> |
+            <a href="#"><!-- GitHub --></a> |
+            <a href="#"><!-- Scholar / ORCID --></a>
+        </p>
 
     </section>
 
-    <!-- ================= NEWS / UPDATES ================= -->
+    <!-- ================= RESEARCH ================= -->
     <section>
 
-        <h3><!-- Section title e.g. "News" --></h3>
+        <h2><!-- Research --></h2>
+
+        <p>
+            <!-- Short overview of your research area -->
+        </p>
 
         <ul>
-            <!-- Each line is one update -->
-            <li><!-- Update 1 --></li>
-            <li><!-- Update 2 --></li>
-            <li><!-- Update 3 --></li>
+            <li>
+                <strong><!-- Project title --></strong><br>
+                <!-- 1–2 sentence description -->
+            </li>
+
+            <li>
+                <strong><!-- Project title --></strong><br>
+                <!-- Description -->
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- ================= PUBLICATIONS PREVIEW ================= -->
+    <section>
+
+        <h2><!-- Publications --></h2>
+
+        <ul>
+            <li><!-- Paper 1 --></li>
+            <li><!-- Paper 2 --></li>
+            <li><!-- Paper 3 --></li>
+        </ul>
+
+        <p>
+            <a href="publications.html"><!-- View full list --></a>
+        </p>
+
+    </section>
+
+    <!-- ================= NEWS ================= -->
+    <section>
+
+        <h2><!-- News --></h2>
+
+        <ul>
+            <li><!-- Update --></li>
+            <li><!-- Update --></li>
+            <li><!-- Update --></li>
         </ul>
 
     </section>
 
 </main>
 
-<!-- ================= FOOTER ================= -->
+<!-- ================= FOOTER (your original style) ================= -->
 <footer>
 
-    <!-- COPYRIGHT TEXT -->
-    <!-- e.g. © 2026 Your Name -->
+    <div class="social-links">
+
+        <a href="#"><!-- LinkedIn --></a>
+        <a href="#"><!-- GitHub --></a>
+
+    </div>
 
 </footer>
 
